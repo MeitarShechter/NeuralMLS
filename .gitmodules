@@ -1,0 +1,3 @@
+[submodule "keypoint_deformer"]
+	path = keypoint_deformer
+	url = https://github.com/tomasjakab/keypoint_deformer.git
