@@ -3,7 +3,7 @@
 We introduce a deformation technique that leverages neural networks to inject the underlying shape geometry into the deformation parameters while introducing desireable biases.
 
 ### Eurographics 2022 Short Paper [[Paper]](https://arxiv.org/abs/2201.01873)<br>
-by [Meitar Shechter](www.linkedin.com/in/meitarshechter), [Rana Hanocka](https://people.cs.uchicago.edu/~ranahanocka/), [Gal Metzer]((https://galmetzer.github.io/)), [Raja Giryes](http://web.eng.tau.ac.il/~raja) and [Daniel Cohen-Or](https://danielcohenor.com/)
+by [Meitar Shechter](www.linkedin.com/in/meitarshechter), [Rana Hanocka](https://people.cs.uchicago.edu/~ranahanocka/), [Gal Metzer](https://galmetzer.github.io/), [Raja Giryes](http://web.eng.tau.ac.il/~raja) and [Daniel Cohen-Or](https://danielcohenor.com/).
 
 # Getting Started
 
@@ -53,7 +53,8 @@ Example on a chair shape:
 We provide scripts which reconstruct various of the paper results and visualizations, flags for playing with those are available in each script.
 #### KPD
 Some of our scripts relies on a pre-trained model of [Keypoint Deformer](https://tomasjakab.github.io/KeypointDeformer/).
-We provide such model for 3 [ShapeNet](https://shapenet.org/) categories (Airplane, Chair, Car) that can be found in "./keypoint_deformer/logs/category_name".
+We provide such model for 3 [ShapeNet](https://shapenet.org/) categories (Airplane, Chair, Car) that can be found in "./keypoint_deformer/logs/category_name".<br>
+
 
 Comparison to other methods (a KPD pre-trained model must be provided in order to compare to KPD):
 ```
