@@ -53,7 +53,7 @@ Example on a chair shape:
 We provide scripts which reconstruct various of the paper results and visualizations, flags for playing with those are available in each script.
 #### KPD
 Some of our scripts relies on a pre-trained model of [Keypoint Deformer](https://tomasjakab.github.io/KeypointDeformer/).
-We provide such model for 3 [ShapeNet](https://shapenet.org/) categories (Airplane, Chair, Car) that can be found in "./keypoint_deformer/logs/category_name".<br>
+We provide such model for 3 [ShapeNet](https://shapenet.org/) categories (Airplane, Chair, Car) that can be found in "./log/KPD_logs/category_name".<br>
 
 #### Scripts
 Comparison to other methods (a KPD pre-trained model must be provided in order to compare to KPD):

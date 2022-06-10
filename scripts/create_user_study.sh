@@ -8,7 +8,7 @@ do
         s2="./data/chairs/ShapeNetChair2/model.obj"
         s3="./data/chairs/ShapeNetChair3/model.obj"
         n_keypoints=12
-        KPDckpt='./keypoint_deformer/logs/chair-12kpt/checkpoints/net_final.pth'
+        KPDckpt='./logs/KPD_logs/chair-12kpt/checkpoints/net_final.pth'
         RFF_en=false
         mls_def='rigid'
     elif [[ "$shape" =~ "airplane" ]]; then
@@ -16,7 +16,7 @@ do
         s2="./data/airplanes/ShapeNetPlane2/model.obj"
         s3="./data/airplanes/ShapeNetPlane3/model.obj"
         n_keypoints=8
-        KPDckpt='./keypoint_deformer/logs/airplane-8kpt/checkpoints/net_final.pth'
+        KPDckpt='./logs/KPD_logs/airplane-8kpt/checkpoints/net_final.pth'
         RFF_en=true
         RFF_sigma=2
         mls_def='affine'
@@ -25,7 +25,7 @@ do
         s2="./data/cars/ShapeNetCar2/model.obj" 
         s3="./data/cars/ShapeNetCar3/model.obj" 
         n_keypoints=8
-        KPDckpt='./keypoint_deformer/logs/car-8kpt/checkpoints/net_final.pth'
+        KPDckpt='./logs/KPD_logs/car-8kpt/checkpoints/net_final.pth'
         RFF_en=false
         mls_def='rigid'
     fi
