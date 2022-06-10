@@ -1,4 +1,4 @@
-name: dnc
+name: NeuralMLS
 channels:
   - rusty1s
   - pytorch
@@ -173,4 +173,3 @@ dependencies:
     - tensorboardx==2.4
     - termcolor==1.1.0
     - yacs==0.1.8
-prefix: /Users/meitar/opt/miniconda3/envs/NeuralMLS
