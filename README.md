@@ -1,6 +1,6 @@
 # NeuralMLS - Geometry-Aware Control Point Deformation
 <img src='imgs/teaser4.png' align="right" width=325>
-We introduce a deformation technique that leverages neural networks to inject the underlying shape geometry into the deformation parameters while introducing desireable biases.
+We introduce a deformation technique that leverages neural networks to inject the underlying shape geometry into the deformation parameters while introducing desirable biases.
 
 ### Eurographics 2022 Short Paper [[Paper]](https://arxiv.org/abs/2201.01873)<br>
 by [Meitar Shechter](https://www.linkedin.com/in/meitarshechter/), [Rana Hanocka](https://people.cs.uchicago.edu/~ranahanocka/), [Gal Metzer](https://galmetzer.github.io/), [Raja Giryes](http://web.eng.tau.ac.il/~raja) and [Daniel Cohen-Or](https://danielcohenor.com/).
